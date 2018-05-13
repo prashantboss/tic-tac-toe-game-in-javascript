@@ -1,0 +1,75 @@
+/**
+ * @author Captain MAD (www.madcoder.me)
+ */
+
+
+body {
+    font: normal 16px courier, arial;
+    text-align: center;
+}
+
+.tic-tac-toe .scoreboard {
+  margin: auto;
+}
+
+.tic-tac-toe .scoreboard .score {
+    text-align: center;
+    font-size: 30px
+}
+
+.tic-tac-toe .scoreboard .score.X {
+    color: #238EE1;
+}
+
+.tic-tac-toe .scoreboard .score.O {
+    color: #FF1010;
+}
+
+
+.tic-tac-toe .board table {
+    cell-spacing: 0px;
+    border-spacing: 0px;
+    border-collapse: separate;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px auto;
+}
+
+.tic-tac-toe .board td {
+    border: 2px solid #000;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font: 200 60px helvetica neue, arial;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tic-tac-toe .board tr:first-child td {
+    border-top: none
+}
+
+.tic-tac-toe .board tr:last-child td {
+    border-bottom: none
+}
+
+.tic-tac-toe .board tr td:first-child {
+    border-left: none;
+}
+
+.tic-tac-toe .board tr td:last-child {
+    border-right: none;
+}
+
+.tic-tac-toe .board td.X {
+    color: #238EE1;
+}
+
+.tic-tac-toe .board td.O {
+    color: #FF1010;
+}
