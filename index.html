@@ -1,0 +1,62 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta charset="utf8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" type="text/css" href="app.css" />
+</head>
+
+<body>
+
+    <h1 class="title"> Tic-Tac-Toe</h1>
+
+    <div class="game-panel">
+
+        <div class="tic-tac-toe">
+            <table class="scoreboard">
+                <tr>
+                    <td> Player 1 </td>
+                    <td width="30"> &nbsp; </td>
+                    <td> Player 2 </td>
+                </tr>
+                <tr>
+                    <td class="score X">
+                        0
+                    </td>
+                    <td> &nbsp; </td>
+                    <td class="score O">
+                        0
+                    </td>
+                </tr>
+            </table>
+
+            <div class="board"></div>
+
+            <button class="btn-reset"> Reset </button>
+
+            <select class="grid-options">
+                <option value="2"> 2 X 2 </option>
+                <option value="3" selected> 3 X 3 </option>
+                <option value="4"> 4 X 4 </option>
+                <option value="5"> 5 X 5 </option>
+                <option value="6"> 6 X 6 </option>
+            </select>
+        </div>
+
+    </div>
+
+    <script src="TicTacToe.js"></script>
+    <script>
+        TicTacToe('.game-panel');
+    </script>
+
+    <!-- Not related to demo -->
+    <script src="http://www.madcoder.me/demos/demos.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.madcoder.me/demos/demos.css" />
+
+</body>
+
+</html>
